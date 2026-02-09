@@ -1,5 +1,5 @@
-function greet(name: string = "stranger") {
-    console.log(`Hello ${name}`);
-}
+import { greet } from "./utils";
 
-greet();
+const username = "John"
+
+greet(username);
