@@ -4,4 +4,4 @@ const username = "John"
 
 greet(username);
 
-bye(username);
+bye();
